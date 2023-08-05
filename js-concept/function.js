@@ -17,3 +17,9 @@ function bringSingara (money) {
 }
 var totalMoney = 9;
 bringSingara(totalMoney);
+
+
+var movie = {name: "Din- the day"};
+console.log(movie);
+movie.name = 'poran';
+console.log(movie);
