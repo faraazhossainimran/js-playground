@@ -13,12 +13,12 @@ function cubeNumber(number) {
   console.log(cubRresult)
 
 
-  
+
   // problem 4
   const obj = {
-    // street: 10,
+    street: 10,
     house: "15A",
-    // society: "Earth Perfect"
+    society: "Earth Perfect"
   }
   function findAddress(obj) {
     if(!!obj){
@@ -33,3 +33,20 @@ function cubeNumber(number) {
    console.log(obj);
   }
   findAddress(obj);
+
+
+  function matchFinder(str1, str2) {
+    if (str1.indexOf(str2) !== -1) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+  
+  // Test
+  var firstString = "Hello, world!";
+  var secondString = "2";
+  
+  var isMatched = matchFinder(firstString, secondString);
+  
+  console.log(isMatched);
