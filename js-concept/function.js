@@ -23,3 +23,20 @@ var movie = {name: "Din- the day"};
 console.log(movie);
 movie.name = 'poran';
 console.log(movie);
+function bringSingara (money) {
+    var singaraPrice = 10;
+    if(typeof money == 'undefined' | singaraPrice > money ){
+        console.log("tmi aghe Taka daw pore singara neo")
+    } else if (typeof money !== 'undefined' && (money >= singaraPrice) ){
+        console.log('ei nen mama singara');
+    }
+    console.log(money)
+}
+var totalMoney = 9;
+bringSingara(totalMoney);
+
+
+var movie = {name: "Din- the day"};
+console.log(movie);
+movie.name = 'poran';
+console.log(movie);
