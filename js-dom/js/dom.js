@@ -17,6 +17,14 @@ const dom = document.getElementById('dom')
 
 const se = document.querySelectorAll('.important-places')
 for(const singleSelector of se){
-    console.log(singleSelector.innerHTML)
+    // console.log(singleSelector.innerHTML)
 }
 // console.log(se.innerText)
+
+const clr = document.getElementById('dom');
+const colour = clr.style.backgroundColor = 'red';
+const clr2 = document.getElementById('place');
+const colour2 = clr2.style.backgroundColor = 'green';
+const heading = document.getElementsByTagName('h1');
+// console.log(heading);
+// const hclr = heading.style.backgroundColor = 'white';
