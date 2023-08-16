@@ -18,6 +18,10 @@ function makeWhite () {
 }
 function makeText () {
     const heading = document.getElementById("heading");
-    console.log("hi")
+    heading.innerText = "Changes by js"
+    
+}
+function textArea () {
+    const textArea = document.getElementById("text-area");
     
 }
