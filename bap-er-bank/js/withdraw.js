@@ -11,5 +11,8 @@ document.getElementById('withdraw-btn').addEventListener('click', function(){
     withdrawInput.value = '';
 
     // withdraw amount decreases to balance total
-    
+    const previousBalanceTotal = document.getElementById('balance-total');
+    const previousBalanceTotalString = previousBalanceTotal.innerText;
+    const previousBalanceAmount = parseFloat(previousBalanceTotalString);
+    previousBalanceTotal.innerText = previousBalanceAmount - newWithDraw;
 });
