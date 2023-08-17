@@ -14,7 +14,7 @@
             <div class="grid grid-cols-3 gap-4 w-3/4 mx-auto mt-8">
                 <div class="bg-yellow-400 p-8 text-slate-50 rounded-lg">
                     <h4 class="text-3xl">Deposit</h4>
-                    <h2 class="text-5xl font-semibold">$<span>00</span></h2>
+                    <h2 class="text-5xl font-semibold">$<span id="deposit-balance">00</span></h2>
                 </div>
                 <div class="bg-red-400 p-8 text-red-50 rounded-lg">
                     <h4 class="text-3xl">Widthdraw</h4>
@@ -22,7 +22,7 @@
                 </div>
                 <div class="bg-blue-400 p-8 text-blue-50 rounded-lg">
                     <h4 class="text-3xl">Balance Total</h4>
-                    <h2 class="text-5xl font-semibold">$<span>1240</span></h2>
+                    <h2 class="text-5xl font-semibold">$<span id="balance-total">1240</span></h2>
                 </div>
                 <div></div>
                 <div></div>
@@ -33,18 +33,19 @@
             <div class="grid grid-cols-2 gap-4 w-3/4 mx-auto mt-8">
                 <div class="p-8 bg-purple-400 text-white">
                     <h2 class="text-3xl">Your Deposit</h2>
-                    <input type="text" placeholder="$ Amount you want to deposit" class="bg-white w-[400px] p-2 rounded-md mt-4">
+                    <input id="deposit-input" type="text" placeholder="$ Amount you want to deposit" class="bg-white text-slate-950 w-[400px] p-2 rounded-md mt-4">
                     <br>
                     <button id="deposit-btn" class="bg-blue-800 p-2 px-6 rounded-lg mt-4">Deposit</button>
                 </div>
                 <div class="p-8 bg-yellow-400 text-white">
                     <h2 class="text-3xl">Your Withdraw</h2>
-                    <input type="text" placeholder="$ Amount you want to Withdraw" class="bg-white w-[400px] p-2 rounded-md mt-4">
+                    <input type="text" placeholder="$ Amount you want to Withdraw" class="bg-white text-slate-950 w-[400px] p-2 rounded-md mt-4">
                     <br>
-                    <button id="deposit-btn" class="bg-blue-800 p-2 px-6 rounded-lg mt-4">Withdraw</button>
+                    <button id="withdraw-btn" class="bg-blue-800 p-2 px-6 rounded-lg mt-4">Withdraw</button>
                 </div>
             </div>
         </section>
     </main>
+    <script src="./js/deposit.js"></script>
 </body>
 </html>
