@@ -17,6 +17,4 @@ document.getElementById("deposit-btn").addEventListener('click', function(){
     previousBalance.innerText = balanceTotal;
     depositInput.value = '';
 
-    // withdraw part
-    
 })
